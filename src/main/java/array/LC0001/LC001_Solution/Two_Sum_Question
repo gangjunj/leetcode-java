@@ -1,0 +1,40 @@
+题号：LC0001 Two Sum
+难度：Easy
+题型：Array, HashMap
+公司高频：Amazon, Google, Facebook
+
+【题目】
+Given an array of integers nums and an integer target,
+return indices of the two numbers such that they add up to target.
+
+【示例】
+Example 1:
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9.
+
+Example 2:
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
+
+Example 3:
+Input: nums = [3,3], target = 6
+Output: [0,1]
+
+【约束】
+2 <= nums.length <= 10^4
+-10^9 <= nums[i] <= 10^9
+Only one valid answer exists.
+
+【解题思路】
+方法 1：暴力枚举（O(n^2)）
+方法 2：哈希表存“值 → 下标”（O(n)）
+
+【时间复杂度】
+O(n)
+
+【空间复杂度】
+O(n)
+
+【代码】
+见 Solution.java
